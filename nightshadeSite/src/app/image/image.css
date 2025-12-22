@@ -1,0 +1,42 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive sizes for different screen sizes */
+@media (max-width: 480px) {
+  .image-container {
+    padding: 20px 10px;
+  }
+
+  .image {
+    max-width:50%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .image {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .image {
+    max-width: 50%;
+  }
+}

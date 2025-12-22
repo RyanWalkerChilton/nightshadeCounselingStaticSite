@@ -1,0 +1,8 @@
+<div class="banner">
+  <div class="banner-left">Nightshade Counseling</div>
+  <div class="banner-right" (click)="toggleSidebar()">Dr. Mo Deslandes, Psy.D.</div>
+</div>
+
+@if (sidebarOpen()) {
+  <app-sidebar (closeSidebar)="sidebarOpen.set(false)"></app-sidebar>
+}

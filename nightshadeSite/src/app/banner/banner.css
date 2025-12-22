@@ -1,0 +1,27 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #b19cd9;
+  padding: 16px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner-left {
+  flex: 1;
+}
+
+.banner-right {
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.banner-right:hover {
+  opacity: 0.8;
+}
