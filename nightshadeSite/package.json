@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path docs --base-href /nightshadeCounselingStaticSite/ && npm run copy-docs",
+    "copy-docs": "powershell -Command \"Copy-Item -Path docs/browser/* -Destination docs -Recurse -Force\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:nightshadeSite": "node dist/nightshadeSite/server/server.mjs"
