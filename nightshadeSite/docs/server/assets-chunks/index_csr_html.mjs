@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>NightshadeSite</title>
-  <base href="/nightshadeCounselingStaticSite">
+  <base href="/nightshadeCounselingStaticSite/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>body{margin:0}</style><link rel="stylesheet" href="styles-TAZMSP2Z.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-TAZMSP2Z.css"></noscript></head>
